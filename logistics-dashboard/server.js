@@ -1,6 +1,9 @@
 const io = require('socket.io')(3000, {
-    cors: { origin: '*' },
-  });
+    cors: {
+        origin: 'http://localhost:3000', // Or your React app's URL
+        methods: ["GET", "POST"] // If needed
+    }
+});
   
   let shipments = [
     { id: 1, location: 'New York', status: 'In Transit', updatedAt: '2024-02-15' },
