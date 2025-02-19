@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "homepage": "https://github.com/Rohaenat-Eniola-Mustapha/nithub-project-frontend",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -43,6 +44,5 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://github.com/Rohaenat-Eniola-Mustapha/nithub-project-frontend"
+  }
 }
