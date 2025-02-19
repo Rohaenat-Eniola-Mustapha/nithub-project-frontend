@@ -27,7 +27,7 @@ The dashboard will open in your browser.  You can toggle between dark and light 
 
 ## Deployed Version
 
-[Link to deployed version]
+[[Link to deployed version](https://github.com/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/)]
 
 ## Technologies Used
 
