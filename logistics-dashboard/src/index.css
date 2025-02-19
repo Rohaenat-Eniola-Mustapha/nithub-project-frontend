@@ -1,51 +1,63 @@
+/* src/index.css */
+:root {
+  --bg-color: #f8f9fa; /* Light mode background */
+  --text-color: #333; /* Light mode text color */
+  --list-bg: #fff;       /* Light mode list item background */
+  --box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Consistent box-shadow */
+}
+
+body.dark-mode {
+  --bg-color: #333; /* Dark mode background */
+  --text-color: #fff; /* Dark mode text color */
+  --list-bg: #444;       /* Dark mode list item background */
+}
+
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
 }
 
-h1 {
-  text-align: center;
-  transition: color 0.3s ease;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
+ul { /* Style for the list */
+    list-style: none;
+    padding: 0;
 }
 
 li {
+  background-color: var(--list-bg); /* Use CSS variable */
   padding: 10px;
   margin: 10px auto;
   border-radius: 5px;
   max-width: 400px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow); /* Use CSS variable */
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+h1 {
+    transition: color 0.3s ease; /* Smooth transitions */
+    text-align: center;
 }
 
 button {
-  padding: 10px;
-  margin: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  padding: 10px 20px; /* Adjust padding */
+  font-size: 16px; /* Adjust font size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate it's clickable */
+  background-color: #007bff; /* Example background color */
+  color: white; /* Example text color */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-/* Light Mode (Default) */
-.app.light,  /* Target the app div for light mode */
-body.light,
-li.light,
-button.light,
-h1.light {
-  background-color: #f8f9fa; /* Light background */
-  color: #333; /* Dark text */
+button:hover {
+  background-color: #0056b3; /* Darker color on hover */
 }
 
-/* Dark Mode */
-.app.dark, /* Target the app div for dark mode */
-body.dark,
-li.dark,
-button.dark,
-h1.dark {
-  background-color: #333; /* Dark background */
-  color: #fff; /* Light text */
+/* Dark mode button styles (optional) */
+body.dark-mode button {
+    background-color: #555; /* Slightly lighter background in dark mode */
+}
+
+body.dark-mode button:hover {
+    background-color: #666; /* Slightly lighter on hover in dark mode */
 }
