@@ -1,0 +1,2 @@
+(this["webpackJsonplogistics-dashboard"]=this["webpackJsonplogistics-dashboard"]||[]).push([[3],{17:function(t,e,n){"use strict";n.r(e);var a=n(0),s=n.n(a);var l=s.a.memo((function(t){let{shipment:e}=t;return s.a.createElement("li",null,s.a.createElement("strong",null,e.location)," - ",e.status," (",e.updatedAt,")")}));e.default=function(t){let{shipments:e}=t;return s.a.createElement("ul",null,e.map(t=>s.a.createElement(l,{key:t.id,shipment:t})))}}}]);
+//# sourceMappingURL=3.1e0dce4c.chunk.js.map

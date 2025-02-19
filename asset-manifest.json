@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/css/main.85729ae1.chunk.css",
+    "main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/main.195d9194.chunk.js",
+    "main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/main.195d9194.chunk.js.map",
+    "runtime-main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/runtime-main.9ac426d3.js",
+    "runtime-main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/runtime-main.9ac426d3.js.map",
+    "static/js/2.2ed531d6.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/2.2ed531d6.chunk.js",
+    "static/js/2.2ed531d6.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/2.2ed531d6.chunk.js.map",
+    "static/js/3.1e0dce4c.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/3.1e0dce4c.chunk.js",
+    "static/js/3.1e0dce4c.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/3.1e0dce4c.chunk.js.map",
+    "index.html": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/index.html",
+    "precache-manifest.dc443f52511fc07d998bdd13f9187eee.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/precache-manifest.dc443f52511fc07d998bdd13f9187eee.js",
+    "service-worker.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/service-worker.js",
+    "static/css/main.85729ae1.chunk.css.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/css/main.85729ae1.chunk.css.map",
+    "static/js/2.2ed531d6.chunk.js.LICENSE.txt": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/tree/main/logistics-dashboard/public/static/js/2.2ed531d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ac426d3.js",
+    "static/js/2.2ed531d6.chunk.js",
+    "static/css/main.85729ae1.chunk.css",
+    "static/js/main.195d9194.chunk.js"
+  ]
+}
