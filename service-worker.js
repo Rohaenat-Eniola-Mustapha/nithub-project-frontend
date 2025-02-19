@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/precache-manifest.295cbf160fd74ebedcd92dfdd0a6c5c0.js"
+  "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/precache-manifest.8e2b5c1c1a62c49c614e82cad5a26642.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

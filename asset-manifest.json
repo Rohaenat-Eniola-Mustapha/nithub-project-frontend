@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/css/main.85729ae1.chunk.css",
-    "main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/main.195d9194.chunk.js",
-    "main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/main.195d9194.chunk.js.map",
-    "runtime-main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/runtime-main.47b686d9.js",
-    "runtime-main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/runtime-main.47b686d9.js.map",
-    "static/js/2.2ed531d6.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/2.2ed531d6.chunk.js",
-    "static/js/2.2ed531d6.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/2.2ed531d6.chunk.js.map",
-    "static/js/3.1e0dce4c.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/3.1e0dce4c.chunk.js",
-    "static/js/3.1e0dce4c.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/3.1e0dce4c.chunk.js.map",
-    "index.html": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/index.html",
-    "precache-manifest.295cbf160fd74ebedcd92dfdd0a6c5c0.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/precache-manifest.295cbf160fd74ebedcd92dfdd0a6c5c0.js",
-    "service-worker.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/service-worker.js",
-    "static/css/main.85729ae1.chunk.css.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/css/main.85729ae1.chunk.css.map",
-    "static/js/2.2ed531d6.chunk.js.LICENSE.txt": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html/static/js/2.2ed531d6.chunk.js.LICENSE.txt"
+    "main.css": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/css/main.85729ae1.chunk.css",
+    "main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/main.195d9194.chunk.js",
+    "main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/main.195d9194.chunk.js.map",
+    "runtime-main.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/runtime-main.85ef6a30.js",
+    "runtime-main.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/runtime-main.85ef6a30.js.map",
+    "static/js/2.2ed531d6.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/2.2ed531d6.chunk.js",
+    "static/js/2.2ed531d6.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/2.2ed531d6.chunk.js.map",
+    "static/js/3.1e0dce4c.chunk.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/3.1e0dce4c.chunk.js",
+    "static/js/3.1e0dce4c.chunk.js.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/3.1e0dce4c.chunk.js.map",
+    "index.html": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html",
+    "precache-manifest.8e2b5c1c1a62c49c614e82cad5a26642.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/precache-manifest.8e2b5c1c1a62c49c614e82cad5a26642.js",
+    "service-worker.js": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/service-worker.js",
+    "static/css/main.85729ae1.chunk.css.map": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/css/main.85729ae1.chunk.css.map",
+    "static/js/2.2ed531d6.chunk.js.LICENSE.txt": "/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/static/js/2.2ed531d6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.47b686d9.js",
+    "static/js/runtime-main.85ef6a30.js",
     "static/js/2.2ed531d6.chunk.js",
     "static/css/main.85729ae1.chunk.css",
     "static/js/main.195d9194.chunk.js"
