@@ -1,31 +1,41 @@
 import React from 'react';
-import { render, screen, waitFor, act } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react'; // No need for act
 import Dashboard from './Dashboard';
-import io from 'socket.io-client'; // Mock socket.io-client
-import mockShipmentData from '../mockShipmentData'; // Import mock data
+import io from 'socket.io-client';
+import mockShipmentData from '../mockShipmentData';
 
-jest.mock('socket.io-client'); // Mock the socket.io-client module
+jest.mock('socket.io-client');
 
 describe('Dashboard Component', () => {
+    let mockSocket; // Declare mockSocket outside beforeEach
+
     beforeEach(() => {
-        // Mock the socket.io connection and events
-        const mockSocket = {
+        mockSocket = { // Initialize mockSocket
             on: jest.fn((event, callback) => {
                 if (event === 'connect') {
-                    callback(); // Simulate connection
+                    callback();
                 }
                 if (event === 'initialData') {
-                    callback(mockShipmentData); // Simulate initial data event
+                    callback(mockShipmentData);
+                }
+                if (event === 'shipmentUpdate'){
+                    callback({id: 1, location: "Douala", status: "Arrived", updatedAt: "2024-02-23"})
+                }
+                if (event === 'disconnect'){
+                    callback()
+                }
+                if (event === 'connect_error'){
+                    callback(new Error("Connection error"))
                 }
             }),
             disconnect: jest.fn(),
         };
-        io.mockReturnValue(mockSocket); // Return the mock socket
+        io.mockReturnValue(mockSocket);
     });
 
     it('renders loading message initially', () => {
-        render(<Dashboard />);
-        expect(screen.getByText('Loading shipments...')).toBeInTheDocument();
+      render(<Dashboard />);
+      expect(screen.getByText('Loading shipments...')).toBeInTheDocument();
     });
 
     it('renders shipment list after data is loaded', async () => {

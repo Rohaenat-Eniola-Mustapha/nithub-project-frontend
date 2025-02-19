@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import ShipmentList from './ShipmentList';
 
 describe('ShipmentList Component', () => {
@@ -17,7 +17,8 @@ describe('ShipmentList Component', () => {
 
     it('renders "No shipments" message when the list is empty', () => {
         render(<ShipmentList shipments={[]} />);
-        // If you have a "No shipments" message, uncomment the below assertion
-        // expect(screen.getByText('No shipments found.')).toBeInTheDocument();
+        const listItem = screen.getByRole('listitem');
+        expect(within(listItem).getByText('New York - In Transit (2024-02-22)')).toBeInTheDocument(); // Use within
+
     });
 });
