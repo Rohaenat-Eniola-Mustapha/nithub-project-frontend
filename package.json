@@ -13,7 +13,7 @@
     "socket.io-client": "^4.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/index.html",
+  "homepage": "https://github.com/Rohaenat-Eniola-Mustapha/nithub-project-frontend/blob/main/public/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
